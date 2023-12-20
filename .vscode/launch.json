@@ -24,6 +24,9 @@
 			"pauseForSourceMap": true,
 			"skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/resources/app/out/vs/**"],
 			"smartStep": true,
+			"sourceMapPathOverrides": {
+				"webpack://gitlens/*": "${workspaceFolder}/*",
+			},
 			"sourceMapRenames": true,
 			"sourceMaps": true,
 			"trace": true
@@ -50,6 +53,9 @@
 			},
 			"skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/resources/app/out/vs/**"],
 			"smartStep": true,
+			"sourceMapPathOverrides": {
+				"webpack://gitlens/*": "${workspaceFolder}/*",
+			},
 			"sourceMapRenames": true,
 			"sourceMaps": true,
 			"trace": true
@@ -70,6 +76,9 @@
 			},
 			"skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/resources/app/out/vs/**"],
 			"smartStep": true,
+			"sourceMapPathOverrides": {
+				"webpack://gitlens/*": "${workspaceFolder}/*",
+			},
 			"sourceMapRenames": true,
 			"sourceMaps": true
 		},
@@ -96,6 +105,9 @@
 			},
 			"skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/resources/app/out/vs/**"],
 			"smartStep": true,
+			"sourceMapPathOverrides": {
+				"webpack://gitlens/*": "${workspaceFolder}/*",
+			},
 			"sourceMapRenames": true,
 			"sourceMaps": true,
 			"trace": true
@@ -127,6 +139,9 @@
 			},
 			"skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/resources/app/out/vs/**"],
 			"smartStep": true,
+			"sourceMapPathOverrides": {
+				"webpack://gitlens/*": "${workspaceFolder}/*",
+			},
 			"sourceMapRenames": true,
 			"sourceMaps": true,
 			"trace": true
@@ -154,6 +169,9 @@
 			},
 			"skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/resources/app/out/vs/**"],
 			"smartStep": true,
+			"sourceMapPathOverrides": {
+				"webpack://gitlens/*": "${workspaceFolder}/*",
+			},
 			"sourceMapRenames": true,
 			"sourceMaps": true,
 			"trace": true
@@ -175,6 +193,9 @@
 			},
 			"skipFiles": ["<node_internals>/**", "**/node_modules/**", "**/resources/app/out/vs/**"],
 			"smartStep": true,
+			"sourceMapPathOverrides": {
+				"webpack://gitlens/*": "${workspaceFolder}/*",
+			},
 			"sourceMapRenames": true,
 			"sourceMaps": true
 		}
